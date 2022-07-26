@@ -1,0 +1,20 @@
+
+
+
+
+
+
+speed = float(input(" Speed (MB) : "))
+
+size = float(input(" Size (GB)   : "))
+
+size = size*1000
+
+time = size/speed
+
+time = time/3600
+
+print (time)
+
+
+
